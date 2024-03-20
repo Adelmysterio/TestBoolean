@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white
+}
+
+.container {
+
+    width: 1200px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-left: 500px; 
+    width: 20%;
+    height: auto;
+    opacity: 100%;
+}
+
+h1 {
+    color: rgb(9, 255, 0);
+    text-align: center;
+    margin: 2px;
+}
+
+.green-box {
+    background-color: rgb(9, 255, 0);
+    margin: auto;
+    width: 83%;
+    height: 50px;
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.monopattino {
+    margin: 30px;
+}
+
+.square {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 1px;
+    margin-right: 5px;
+    margin-left: 75px;
+}
+
+h2 {
+    display: inline;
+    color: white;
+}
+
+
+.posizione {
+    margin-left: 70px;
+}
+
+.charge {
+    margin-left: 75px;
+}
+
+/* Stato carica */
+
+#charge-full {
+    background-color: rgb(9, 255, 0);
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#charge-half {
+    background-color: orange;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#charge-low {
+    background-color: red;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+
+}
